@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <title>ItsPete Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.5">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="Profile.css"> 
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <img src="natural.jpg" alt="Sidebar Image" class="sidebar-image">
+    <div class="w3-center w3-padding-64">
+      <h3 class="w3-text-white"><b>ItsPete's<br>Tune Tavern</b></h3>
+    </div>
+    <a href="#" class="w3-bar-item w3-button w3-text-white w3-padding">PORTFOLIO</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-white w3-padding">ABOUT ME</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-white w3-padding">CONTACT</a>
+  </div>
+
+  <!-- Main Content Area -->
+  <div style="margin-left: 300px;"> 
+
+    <!-- Push down content on small screens -->
+    <div class="w3-hide-large" style="margin-top: 83px;"></div>
+
+    <!-- Photo Grid -->
+    <div class="w3-row" id="photoGrid"></div>
+
+    <!-- Pagination -->
+    <div class="w3-center w3-padding-32">
+      <div class="w3-bar" id="pagination"></div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+      <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+      <h4><b>About Me</b></h4>
+      <img src="myprofile.jpg" alt="Khomphak Anousone" class="w3-image w3-padding-32" width="600"
+        height="650">
+      <div class="w3-content w3-justify" style="max-width:600px">
+        <p>
+          Hey there! I'm Khomphak Anousone, an IT student with a passion for capturing the
+          world's beauty through my lens. There's something undeniably magical about framing a
+          perfect moment, whether it's a breathtaking cityscape or a serene natural
+          landscape. When I'm not lost in the digital realm, you can find me experimenting
+          with music, letting my creativity flow into harmonious melodies. And if I'm not
+          busy capturing or creating, I'm probably on the road, exploring new places and
+          soaking in different cultures. Sharing my adventures and discoveries with others
+          is what truly fuels my soul. So, let's connect, explore, and create together!
+        </p>
+        <p>mail: pkhomphakdy@gmail.com</p>
+        <p>tel: 0947176054</p>
+        <hr class="w3-opacity">
+        <h4 class="w3-padding-16">Technical Skills</h4>
+        <p class="w3-wide">Photography</p>
+        <div class="w3-white">
+          <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
+        </div>
+        <p class="w3-wide">Web Design</p>
+        <div class="w3-white">
+          <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide">Music</p>
+        <div class="w3-white">
+          <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
+        </div>
+        <hr class="w3-opacity">
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+      <div class="w3-content" style="max-width:600px">
+        <h4 class="w3-center"><b>Contact Me</b></h4>
+        <p>Do you want me to photograph you? Fill out the form and fill me in with the details :)
+          I love meeting new people!</p>
+          <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+            <div class="w3-content" style="max-width:600px">
+              <a href="https://docs.google.com/forms/d/1TE7sP5W468haBCpx_Huax4gGdnqglAmiHi2M5P0CXj4" class="w3-button w3-block w3-black w3-margin-bottom" target="_blank">Contact Me</a>
+          
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-grey">
+      <div class="w3-row-padding">
+        <div class="w3-third">
+          <h3>INFO</h3>
+          <p>"This portfolio serves as a testament to my web development capabilities. It
+            showcases my ability to conceptualize, design, and build digital spaces from the
+            ground up. If you're intrigued by my work, feel free to reach out via the provided
+            email."</p>
+        </div>
+      </div>
+    </footer>
+
+  </div> <!---  End of Main Content Area  -->
+
+  <script src="script.js"></script> 
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+/* General Styles */
+body, h1, h2, h3, h4, h5 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .w3-third img {
+    margin-bottom: -6px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .w3-third img:hover {
+    opacity: 1;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0px;
+  }
+  
+  .sidebar-image {
+    width: 120%;
+    height: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Portfolio Image Styles */
+  .portfolio-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  body {
+    background-image: url('snow.webp'); /* Replace with your GIF path */
+    background-repeat: repeat; /* Or use 'repeat-x', 'repeat-y', 'no-repeat' */
+    background-size: auto 200% ; /* Or use 'contain', specific sizes, etc. */
+    background-attachment: fixed;
+  }
