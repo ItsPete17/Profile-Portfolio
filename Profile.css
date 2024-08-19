@@ -16,7 +16,7 @@ body, h1, h2, h3, h4, h5 {
   /* Sidebar Styles */
   .sidebar {
     height: 100%;
-    width: 250px;
+    width: 150px;
     position: fixed;
     z-index: 1;
     top: 0;
